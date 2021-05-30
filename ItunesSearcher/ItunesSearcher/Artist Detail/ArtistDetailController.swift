@@ -82,13 +82,20 @@ extension ArtistDetailController {
         // Set popViewBackground View
         popViewBackground.backgroundColor = Config.darkBlue
         popViewBackground.layer.cornerRadius = Config.cornerRadius
-        popViewBackground.dropShadow()
         
         // Set artworkImg
-        artworkImg.contentMode = .scaleAspectFit
+        // set the artwork in a circular picture
+        
+        artworkImg.contentMode = .scaleAspectFill
+        artworkImg.layer.cornerRadius = artworkImg.frame.height / 2
+        artworkImg.layer.masksToBounds = false
+        artworkImg.clipsToBounds = true
+        artworkImg.layer.borderWidth = 1.0
+        artworkImg.layer.borderColor = #colorLiteral(red: 1, green: 0.5844732523, blue: 0, alpha: 1)
         if let url = URL(string: entity.artworkUrl100 ?? "" ){
             artworkImg.sd_setImage(with: url, placeholderImage: UIImage(named: "place-holder"))
         }
+        
         
         // Set trackName
         trackName.text = entity.trackName

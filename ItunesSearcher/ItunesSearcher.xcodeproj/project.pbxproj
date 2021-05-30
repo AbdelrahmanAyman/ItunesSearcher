@@ -24,7 +24,6 @@
 		595F267A2662890800E379C8 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F26792662890800E379C8 /* SearchCell.swift */; };
 		595F267E26628ECE00E379C8 /* ItunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F267C26628ECD00E379C8 /* ItunesModel.swift */; };
 		595F267F26628ECE00E379C8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F267D26628ECD00E379C8 /* Result.swift */; };
-		595F2685266299F100E379C8 /* UIView-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2681266299F100E379C8 /* UIView-Extention.swift */; };
 		595F2686266299F100E379C8 /* UIAlert-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2682266299F100E379C8 /* UIAlert-Extention.swift */; };
 		595F2687266299F100E379C8 /* UIActivityIndicator-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2683266299F100E379C8 /* UIActivityIndicator-Extention.swift */; };
 		595F2688266299F100E379C8 /* UITableView-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2684266299F100E379C8 /* UITableView-Extention.swift */; };
@@ -51,7 +50,6 @@
 		595F26792662890800E379C8 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		595F267C26628ECD00E379C8 /* ItunesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesModel.swift; sourceTree = "<group>"; };
 		595F267D26628ECD00E379C8 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		595F2681266299F100E379C8 /* UIView-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView-Extention.swift"; sourceTree = "<group>"; };
 		595F2682266299F100E379C8 /* UIAlert-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlert-Extention.swift"; sourceTree = "<group>"; };
 		595F2683266299F100E379C8 /* UIActivityIndicator-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicator-Extention.swift"; sourceTree = "<group>"; };
 		595F2684266299F100E379C8 /* UITableView-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView-Extention.swift"; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 		595F2680266299F100E379C8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				595F2681266299F100E379C8 /* UIView-Extention.swift */,
 				595F2682266299F100E379C8 /* UIAlert-Extention.swift */,
 				595F2683266299F100E379C8 /* UIActivityIndicator-Extention.swift */,
 				595F2684266299F100E379C8 /* UITableView-Extention.swift */,
@@ -329,7 +326,6 @@
 				595F267F26628ECE00E379C8 /* Result.swift in Sources */,
 				595F26562662713500E379C8 /* SearchController.swift in Sources */,
 				595F26722662735100E379C8 /* Config.swift in Sources */,
-				595F2685266299F100E379C8 /* UIView-Extention.swift in Sources */,
 				595F2676266274D000E379C8 /* Connectivity.swift in Sources */,
 				595F267A2662890800E379C8 /* SearchCell.swift in Sources */,
 				595F267E26628ECE00E379C8 /* ItunesModel.swift in Sources */,

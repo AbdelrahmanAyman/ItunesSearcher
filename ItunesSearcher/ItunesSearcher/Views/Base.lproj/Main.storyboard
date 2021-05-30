@@ -141,7 +141,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3N-TE-1C3">
-                                <rect key="frame" x="0.0" y="645.5" width="414" height="250.5"/>
+                                <rect key="frame" x="0.0" y="665.5" width="414" height="230.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1qh-wP-5la" userLabel="track &amp; artist">
                                         <rect key="frame" x="15" y="30" width="389" height="50.5"/>
@@ -161,7 +161,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sVn-4J-lge">
-                                        <rect key="frame" x="130" y="112.5" width="274" height="76.5"/>
+                                        <rect key="frame" x="110" y="102.5" width="294" height="76.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="album name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYD-xJ-uJH">
                                                 <rect key="frame" x="0.0" y="0.0" width="93.5" height="20.5"/>
@@ -184,10 +184,10 @@
                                         </subviews>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place-holder" translatesAutoresizingMaskIntoConstraints="NO" id="E3L-39-p88">
-                                        <rect key="frame" x="15" y="100.5" width="100" height="100"/>
+                                        <rect key="frame" x="15" y="100.5" width="80" height="80"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="WJL-Ay-df9"/>
-                                            <constraint firstAttribute="height" constant="100" id="vgJ-Sy-LFr"/>
+                                            <constraint firstAttribute="width" constant="80" id="WJL-Ay-df9"/>
+                                            <constraint firstAttribute="height" constant="80" id="vgJ-Sy-LFr"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
