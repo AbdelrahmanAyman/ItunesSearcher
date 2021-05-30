@@ -28,6 +28,7 @@
 		595F2686266299F100E379C8 /* UIAlert-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2682266299F100E379C8 /* UIAlert-Extention.swift */; };
 		595F2687266299F100E379C8 /* UIActivityIndicator-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2683266299F100E379C8 /* UIActivityIndicator-Extention.swift */; };
 		595F2688266299F100E379C8 /* UITableView-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F2684266299F100E379C8 /* UITableView-Extention.swift */; };
+		595F268B2664020A00E379C8 /* ArtistDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F268A2664020A00E379C8 /* ArtistDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		595F2682266299F100E379C8 /* UIAlert-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlert-Extention.swift"; sourceTree = "<group>"; };
 		595F2683266299F100E379C8 /* UIActivityIndicator-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicator-Extention.swift"; sourceTree = "<group>"; };
 		595F2684266299F100E379C8 /* UITableView-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView-Extention.swift"; sourceTree = "<group>"; };
+		595F268A2664020A00E379C8 /* ArtistDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailController.swift; sourceTree = "<group>"; };
 		7C0E06CAF419951C11470F6B /* Pods-ItunesSearcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunesSearcher.release.xcconfig"; path = "Target Support Files/Pods-ItunesSearcher/Pods-ItunesSearcher.release.xcconfig"; sourceTree = "<group>"; };
 		E47E215F449C95AF82A87F01 /* Pods_ItunesSearcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItunesSearcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				595F266E2662733000E379C8 /* Models */,
 				595F266F2662733600E379C8 /* Views */,
 				595F26782662887400E379C8 /* Search Home */,
+				595F2689266401E500E379C8 /* Artist Detail */,
 				595F26702662733D00E379C8 /* Util */,
 				595F26512662713500E379C8 /* AppDelegate.swift */,
 				595F26532662713500E379C8 /* SceneDelegate.swift */,
@@ -187,6 +190,14 @@
 				595F2684266299F100E379C8 /* UITableView-Extention.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		595F2689266401E500E379C8 /* Artist Detail */ = {
+			isa = PBXGroup;
+			children = (
+				595F268A2664020A00E379C8 /* ArtistDetailController.swift */,
+			);
+			path = "Artist Detail";
 			sourceTree = "<group>";
 		};
 		6B2E773D83F19F3B123218DD /* Frameworks */ = {
@@ -322,6 +333,7 @@
 				595F2676266274D000E379C8 /* Connectivity.swift in Sources */,
 				595F267A2662890800E379C8 /* SearchCell.swift in Sources */,
 				595F267E26628ECE00E379C8 /* ItunesModel.swift in Sources */,
+				595F268B2664020A00E379C8 /* ArtistDetailController.swift in Sources */,
 				595F26522662713500E379C8 /* AppDelegate.swift in Sources */,
 				595F2686266299F100E379C8 /* UIAlert-Extention.swift in Sources */,
 				595F2687266299F100E379C8 /* UIActivityIndicator-Extention.swift in Sources */,
@@ -404,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -459,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

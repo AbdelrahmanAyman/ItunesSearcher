@@ -42,9 +42,9 @@ class SearchCell: UITableViewCell {
         
         // Set artistName
         artistName.text = result.artistName
-        artistName.textColor = Config.gray
-        artistName.font = regular(Config.headline)
-        artistName.numberOfLines = 1
+//        artistName.textColor = Config.gray
+//        artistName.font = regular(Config.headline)
+//        artistName.numberOfLines = 1
         
     }
     

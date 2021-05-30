@@ -57,9 +57,12 @@ extension SearchController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        view.endEditing(true)
         
-        
-        print("Ciao:", results[indexPath.row].artistName )
+        // Show Popup ArtistDetailController
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "artistDetailController") as! ArtistDetailController
+        popOverVC.entity = results[indexPath.row]
+        self.present(popOverVC, animated: true)
     }
     
     
@@ -115,8 +118,18 @@ extension SearchController {
             self.view.startLoading()
         }
         
+
+        
+        // set defult search value to Michael Jackson 
+        var textInput = ""
+        if searchField.text == "" {
+            textInput = "Michael Jackson"
+        }else{
+            textInput = searchField.text!
+        }
+        
         // call API
-        let params = searchField.text!.replacingOccurrences(of: " ", with: "+", range: nil)
+        let params = textInput.replacingOccurrences(of: " ", with: "+", range: nil)
         networkHandler.postData(urlPath: "search?term=\(params)", method: .get, with: ItunesModel.self, parameters: .none) { [weak self](response) in
             
             DispatchQueue.main.async {
