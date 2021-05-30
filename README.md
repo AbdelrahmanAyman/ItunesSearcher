@@ -3,7 +3,7 @@
 <div align="center">
   <img src="Simulator Screen Shot - iPhone 12 Pro Max - 2021-05-30 at 20.53.06.png" width="30%" height="30%">
   <img src="Simulator Screen Shot - iPhone 12 Pro Max - 2021-05-30 at 20.53.11.png" width="30%" height="30%">
-   <img src="Simulator Screen Shot - iPhone 12 Pro Max - 2021-05-30 at 20.53.38.png" width="30%" height="30%">
+   <img src="Simulator Screen Shot - iPhone 12 Pro Max - 2021-05-30 at 21.09.32.png" width="30%" height="30%">
 
 </div>
 
