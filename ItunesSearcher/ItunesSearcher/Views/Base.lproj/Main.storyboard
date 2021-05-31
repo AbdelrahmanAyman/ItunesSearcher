@@ -20,7 +20,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SearchController" customModule="ItunesSearcher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5xv-pb-BK2">
@@ -141,42 +141,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3N-TE-1C3">
-                                <rect key="frame" x="0.0" y="665.5" width="414" height="230.5"/>
+                                <rect key="frame" x="0.0" y="661.5" width="414" height="234.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1qh-wP-5la" userLabel="track &amp; artist">
-                                        <rect key="frame" x="15" y="30" width="389" height="50.5"/>
+                                        <rect key="frame" x="15" y="30" width="389" height="54.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEg-xe-7hD">
-                                                <rect key="frame" x="0.0" y="0.0" width="389" height="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="389" height="24"/>
                                                 <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="artist name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvV-VZ-tl3">
-                                                <rect key="frame" x="0.0" y="30" width="389" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="34" width="389" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sVn-4J-lge">
-                                        <rect key="frame" x="110" y="102.5" width="294" height="76.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sVn-4J-lge">
+                                        <rect key="frame" x="110" y="106.5" width="294" height="76"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="album name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYD-xJ-uJH">
-                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="18.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYm-4v-5rJ">
-                                                <rect key="frame" x="0.0" y="30.5" width="36.5" height="18"/>
+                                                <rect key="frame" x="0.0" y="28.5" width="36.5" height="19"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020 USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OD-hY-sco">
-                                                <rect key="frame" x="0.0" y="58.5" width="71" height="18"/>
+                                                <rect key="frame" x="0.0" y="57.5" width="71" height="18.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" systemColor="systemPinkColor"/>
                                                 <nil key="highlightedColor"/>
@@ -184,7 +184,7 @@
                                         </subviews>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place-holder" translatesAutoresizingMaskIntoConstraints="NO" id="E3L-39-p88">
-                                        <rect key="frame" x="15" y="100.5" width="80" height="80"/>
+                                        <rect key="frame" x="15" y="104.5" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="WJL-Ay-df9"/>
                                             <constraint firstAttribute="height" constant="80" id="vgJ-Sy-LFr"/>
@@ -196,8 +196,10 @@
                                     <constraint firstItem="1qh-wP-5la" firstAttribute="leading" secondItem="P3N-TE-1C3" secondAttribute="leading" constant="15" id="6Qa-UK-R9K"/>
                                     <constraint firstAttribute="bottom" secondItem="E3L-39-p88" secondAttribute="bottom" constant="50" id="ENs-jq-nzS"/>
                                     <constraint firstItem="sVn-4J-lge" firstAttribute="centerY" secondItem="E3L-39-p88" secondAttribute="centerY" id="TGp-eX-LI1"/>
+                                    <constraint firstItem="sVn-4J-lge" firstAttribute="top" secondItem="1qh-wP-5la" secondAttribute="bottom" constant="22" id="Un6-4J-gvl"/>
                                     <constraint firstItem="1qh-wP-5la" firstAttribute="top" secondItem="P3N-TE-1C3" secondAttribute="top" constant="30" id="YOg-wW-noM"/>
                                     <constraint firstAttribute="trailing" secondItem="sVn-4J-lge" secondAttribute="trailing" constant="10" id="YOx-Pu-wEi"/>
+                                    <constraint firstAttribute="bottom" secondItem="sVn-4J-lge" secondAttribute="bottom" constant="52" id="aau-3f-fHl"/>
                                     <constraint firstAttribute="trailing" secondItem="1qh-wP-5la" secondAttribute="trailing" constant="10" id="g8A-bU-o4O"/>
                                     <constraint firstItem="sVn-4J-lge" firstAttribute="leading" secondItem="E3L-39-p88" secondAttribute="trailing" constant="15" id="hJ8-wb-VhF"/>
                                     <constraint firstItem="E3L-39-p88" firstAttribute="leading" secondItem="P3N-TE-1C3" secondAttribute="leading" constant="15" id="oig-t6-Kep"/>

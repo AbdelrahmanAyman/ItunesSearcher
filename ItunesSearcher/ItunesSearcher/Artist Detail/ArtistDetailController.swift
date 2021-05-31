@@ -85,7 +85,6 @@ extension ArtistDetailController {
         
         // Set artworkImg
         // set the artwork in a circular picture
-        
         artworkImg.contentMode = .scaleAspectFill
         artworkImg.layer.cornerRadius = artworkImg.frame.height / 2
         artworkImg.layer.masksToBounds = false
@@ -96,7 +95,6 @@ extension ArtistDetailController {
             artworkImg.sd_setImage(with: url, placeholderImage: UIImage(named: "place-holder"))
         }
         
-        
         // Set trackName
         trackName.text = entity.trackName
         trackName.textColor = Config.white
@@ -105,10 +103,9 @@ extension ArtistDetailController {
         
         // Set artistName
         artistName.text = entity.artistName
-//        artistName.textColor = Config.gray
-//        artistName.font = regular(Config.body)
-//        artistName.numberOfLines = 0
-        
+        artistName.textColor = Config.orange
+        artistName.font = regular(Config.body)
+        artistName.numberOfLines = 0
         
         // Set albumName
         albumName.text = entity.collectionName

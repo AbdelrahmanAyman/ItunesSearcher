@@ -129,7 +129,8 @@
 		595F266E2662733000E379C8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				595F267B26628ECD00E379C8 /* ItunesModel */,
+				595F267C26628ECD00E379C8 /* ItunesModel.swift */,
+				595F267D26628ECD00E379C8 /* Result.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,15 +169,6 @@
 				595F26792662890800E379C8 /* SearchCell.swift */,
 			);
 			path = "Search Home";
-			sourceTree = "<group>";
-		};
-		595F267B26628ECD00E379C8 /* ItunesModel */ = {
-			isa = PBXGroup;
-			children = (
-				595F267C26628ECD00E379C8 /* ItunesModel.swift */,
-				595F267D26628ECD00E379C8 /* Result.swift */,
-			);
-			path = ItunesModel;
 			sourceTree = "<group>";
 		};
 		595F2680266299F100E379C8 /* Extensions */ = {
