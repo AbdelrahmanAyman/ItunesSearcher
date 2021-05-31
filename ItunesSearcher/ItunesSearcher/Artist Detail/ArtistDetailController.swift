@@ -121,6 +121,9 @@ extension ArtistDetailController {
         
         // Set track price
         price.text = "\(entity.trackPrice ?? 0.0) \(entity.currency ?? "")"
+        price.textColor = .red
+        price.font = medium(Config.body)
+        price.numberOfLines = 0
      
     }
 }
